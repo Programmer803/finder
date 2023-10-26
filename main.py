@@ -30,10 +30,7 @@ Use: finder.py [OPTION] [URL] [...-l]
 
 -t : Choose title 'Title: Book'
 
---add-method-l : You can add your Google dork 'intitle: "..." and ...'
-
 --file : Choose file type 'pdf'
-
 """
 
 # Var
