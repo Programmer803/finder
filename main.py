@@ -1,4 +1,7 @@
 # Error Code
+# Made by So3r https://github.com/Programmer803
+
+
 Error = False
 
 try:
