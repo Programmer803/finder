@@ -2,10 +2,13 @@
 Error = False
 
 try:
-    import bs4 
-    import requests
-    from print_color import print
-    import sys
+	
+    	import bs4 
+    	import requests
+    	from print_color import print
+    	import sys
+	import colorama
+	
     
 except:
     Error = True
@@ -19,7 +22,7 @@ except:
           Next run script
           """)
 # Help - test
-
+colorama.init()
 ht = """
 Use: finder.py [OPTION] [URL] [...-l]
 ...-l : You should add this method at last part
