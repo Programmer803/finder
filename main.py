@@ -3,11 +3,11 @@ Error = False
 
 try:
 	
-    	import bs4 
-    	import requests
-    	from print_color import print
-    	import sys
-	import colorama
+    import bs4 
+    import requests
+    from print_color import print
+    import sys
+    import colorama
 	
     
 except:
