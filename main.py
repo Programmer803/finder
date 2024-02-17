@@ -24,8 +24,8 @@ except:
 # Help - test
 colorama.init()
 ht = """
-Use: finder.py [OPTION] [URL] [...-l]
-...-l : You should add this method at last part
+
+Use: finder.py [OPTION] [URL] 
 
 -i : Choose info for target 'linux or for some "linux commands" '
 
@@ -34,6 +34,7 @@ Use: finder.py [OPTION] [URL] [...-l]
 -t : Choose title 'Title: Book'
 
 --file : Choose file type 'pdf'
+
 """
 
 # Var
@@ -77,9 +78,9 @@ class finder:
         
         soup = bs4.BeautifulSoup(self.res.text,"html.parser")
         
-        print(f"""{self.url}{self.req}""" , tag = "Dork" , tag_color="yellow")
+        print(f"""{self.url}{self.req}""" , tag = "Dork" , tag_color="yellow" , end="\n\n")
         
-        print("Search for information" , tag = "Starting" , tag_color="red")
+        print("Search for information" , tag = "Starting" , tag_color="red" , end="\n\n")
         
         data = soup.find_all({"div":"LC20lb MBeuO DKV0Md"})
         
